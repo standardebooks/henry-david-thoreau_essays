@@ -138,14 +138,84 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/a-plea-for-captain-john-brown.xhtml" id="a-plea-for-captain-john-brown.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-walk-to-wachusett.xhtml" id="a-walk-to-wachusett.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-winter-walk.xhtml" id="a-winter-walk.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/after-the-death-of-john-brown.xhtml" id="after-the-death-of-john-brown.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/aulus-persius-flaccus.xhtml" id="aulus-persius-flaccus.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/autumnal-tints.xhtml" id="autumnal-tints.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chesuncook.xhtml" id="chesuncook.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/dark-ages.xhtml" id="dark-ages.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/herald-of-freedom.xhtml" id="herald-of-freedom.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/homer-ossian-chaucer.xhtml" id="homer-ossian-chaucer.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/life-without-principle.xhtml" id="life-without-principle.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/natural-history-of-massachusetts.xhtml" id="natural-history-of-massachusetts.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/night-and-moonlight.xhtml" id="night-and-moonlight.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/on-the-duty-of-civil-disobedience.xhtml" id="on-the-duty-of-civil-disobedience.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/paradise-to-be-regained.xhtml" id="paradise-to-be-regained.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/sir-walter-raleigh.xhtml" id="sir-walter-raleigh.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/slavery-in-massachusetts.xhtml" id="slavery-in-massachusetts.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-highland-light.xhtml" id="the-highland-light.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-landlord.xhtml" id="the-landlord.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-last-days-of-john-brown.xhtml" id="the-last-days-of-john-brown.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-service.xhtml" id="the-service.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-succession-of-forest-trees.xhtml" id="the-succession-of-forest-trees.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-wellfleet-oysterman.xhtml" id="the-wellfleet-oysterman.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/thomas-carlyle-and-his-works.xhtml" id="thomas-carlyle-and-his-works.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/walking.xhtml" id="walking.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/wendell-phillips-before-the-concord-lyceum.xhtml" id="wendell-phillips-before-the-concord-lyceum.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/wild-apples.xhtml" id="wild-apples.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<!-- 1840 -->
+		<itemref idref="aulus-persius-flaccus.xhtml"/>
+		<itemref idref="the-service.xhtml"/>
+		<!-- 1842 -->
+		<itemref idref="a-walk-to-wachusett.xhtml"/>
+		<!-- 1843 -->
+		<itemref idref="dark-ages.xhtml"/>
+		<itemref idref="a-winter-walk.xhtml"/>
+		<itemref idref="paradise-to-be-regained.xhtml"/>
+		<itemref idref="the-landlord.xhtml"/>
+		<itemref idref="homer-ossian-chaucer"/>
+		<!-- 1844 -->
+		<itemref idref="sir-walter-raleigh.xhtml"/>
+		<itemref idref="herald-of-freedom.xhtml"/>
+		<!-- 1845 -->
+		<itemref idref="wendell-phillips-before-the-concord-lyceum.xhtml"/>
+		<!-- 1847 -->
+		<itemref idref="thomas-carlyle-and-his-works.xhtml"/>
+		<!-- 1849 -->
+		<itemref idref="on-the-duty-of-civil-disobedience.xhtml"/>
+		<!-- 1854 -->
+		<itemref idref="slavery-in-massachusetts.xhtml"/>
+		<!-- 1859 -->
+		<itemref idref="a-plea-for-captain-john-brown.xhtml"/>
+		<itemref idref="after-the-death-of-john-brown.xhtml"/>
+		<!-- 1860 -->
+		<itemref idref="the-last-days-of-john-brown.xhtml"/>
+		<itemref idref="the-succession-of-forest-trees.xhtml"/>
+		<!-- 1862 -->
+		<itemref idref="walking.xhtml"/>
+		<itemref idref="autumnal-tints.xhtml"/>
+		<itemref idref="wild-apples.xhtml"/>
+		<!-- 1863 -->
+		<itemref idref="natural-history-of-massachusetts.xhtml"/>
+		<itemref idref="life-without-principle.xhtml"/>
+		<itemref idref="night-and-moonlight.xhtml"/>
+		<!-- 1864 -->
+		<itemref idref="the-highland-light.xhtml"/>
+		<itemref idref="chesuncook.xhtml"/>
+		<!-- 1865 -->
+		<itemref idref="the-wellfleet-oysterman.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
