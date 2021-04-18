@@ -41,7 +41,7 @@
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
-		<dc:language>LANG</dc:language>
+		<dc:language>en-US</dc:language>
 		<!-- TRANSCRIPTIONS -->
 		<!-- On the Duty of Civil Disobedience -->
 		<dc:source>https://www.gutenberg.org/ebooks/71</dc:source>
@@ -84,7 +84,9 @@
 		<!-- The Last Days of John Brown (p. 278) -->
 		<dc:source>https://en.wikisource.org/wiki/Yankee_in_Canada_(1866)/The_Last_Days_of_John_Brown</dc:source>
 		<!-- SCANS -->
-		<!-- The Service (Writings does not match transcription) -->
+		<!-- Paradise (to be) Regained (original, only one matching transcription) -->
+		<dc:source>https://catalog.hathitrust.org/Record/011682134</dc:source>
+		<!-- The Service -->
 		<dc:source>https://archive.org/details/service1902thor</dc:source>
 		<!-- Writings vol3; The Maine Woods (Chesunhook)-->
 		<dc:source>https://archive.org/details/writingsofhenryd03thor</dc:source>
@@ -92,13 +94,13 @@
 		<dc:source>https://archive.org/details/writingsofhenryd04thor</dc:source>
 		<!-- Writings vol5; Excursions and Poems -->
 		<dc:source>https://archive.org/details/writingsofhenryd05thor</dc:source>
-		<!-- The Dial 1843 vol 3/4: "Homer, Ossian, Chaucer"; "Dark Ages" -->
-		<dc:source>https://books.google.com/books?id=0Q5rpdaHR9EC</dc:source>
 		<!-- The Dial 1840 vol 1: "Aulus Persius Flaccus" -->
 		<dc:source>https://books.google.com/books?id=t5c_AQAAMAAJ</dc:source>
+		<!-- The Dial 1843 vol 3/4: "Homer, Ossian, Chaucer"; "Dark Ages" -->
+		<dc:source>https://books.google.com/books?id=0Q5rpdaHR9EC</dc:source>
 		<!-- Sir Walter Raleigh, published posthumously -->
 		<dc:source>https://archive.org/details/sirwalterraleigh00thor</dc:source>
-		<!-- Yankee in Canada -->
+		<!-- Yankee in Canada with Anti-Slavery and Reform Papers -->
 		<dc:source>https://archive.org/details/yankeeincanadawi00thor</dc:source>
 		<!-- Excursions: "…Massachusetts"; "…Wachusett"; "Landlord"; "Winter Walk"; "Forest Trees"; "Walking"; "Autumnal Tints"; "Wild Apples"; "Night and Moonlight" -->
 		<dc:source>https://archive.org/details/excursions00thoruoft</dc:source>
@@ -186,7 +188,7 @@
 		<itemref idref="a-winter-walk.xhtml"/>
 		<itemref idref="paradise-to-be-regained.xhtml"/>
 		<itemref idref="the-landlord.xhtml"/>
-		<itemref idref="homer-ossian-chaucer"/>
+		<itemref idref="homer-ossian-chaucer.xhtml"/>
 		<!-- 1844 -->
 		<itemref idref="sir-walter-raleigh.xhtml"/>
 		<itemref idref="herald-of-freedom.xhtml"/>
