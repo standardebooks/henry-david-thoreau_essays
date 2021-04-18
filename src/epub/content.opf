@@ -84,12 +84,14 @@
 		<!-- The Last Days of John Brown (p. 278) -->
 		<dc:source>https://en.wikisource.org/wiki/Yankee_in_Canada_(1866)/The_Last_Days_of_John_Brown</dc:source>
 		<!-- SCANS -->
+		<!-- The Service (Writings does not match transcription) -->
+		<dc:source>https://archive.org/details/service1902thor</dc:source>
 		<!-- Writings vol3; The Maine Woods (Chesunhook)-->
 		<dc:source>https://archive.org/details/writingsofhenryd03thor</dc:source>
 		<!-- Writings vol4; Cape Cod and Miscellanies -->
 		<dc:source>https://archive.org/details/writingsofhenryd04thor</dc:source>
 		<!-- Writings vol5; Excursions and Poems -->
-		<dc:source>https://archive.org/details/writingsofhenryd04thor</dc:source>
+		<dc:source>https://archive.org/details/writingsofhenryd05thor</dc:source>
 		<!-- The Dial 1843 vol 3/4: "Homer, Ossian, Chaucer"; "Dark Ages" -->
 		<dc:source>https://books.google.com/books?id=0Q5rpdaHR9EC</dc:source>
 		<!-- The Dial 1840 vol 1: "Aulus Persius Flaccus" -->
