@@ -20,6 +20,10 @@ blockquote[xml|lang]{
 	text-align: justify;
 	text-indent: 0;
 }
+
+[epub|type~="bridgehead"] i{
+	font-style: normal;
+}
 /* end of bridgeheads */
 
 /* All epigraphs */

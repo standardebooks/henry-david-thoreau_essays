@@ -145,6 +145,7 @@
 		<item href="text/a-plea-for-captain-john-brown.xhtml" id="a-plea-for-captain-john-brown.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/a-walk-to-wachusett.xhtml" id="a-walk-to-wachusett.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/a-winter-walk.xhtml" id="a-winter-walk.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-yankee-in-canada.xhtml" id="a-yankee-in-canada.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/after-the-death-of-john-brown.xhtml" id="after-the-death-of-john-brown.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/aulus-persius-flaccus.xhtml" id="aulus-persius-flaccus.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/autumnal-tints.xhtml" id="autumnal-tints.xhtml" media-type="application/xhtml+xml"/>
@@ -179,27 +180,32 @@
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
 		<!-- 1840 -->
-		<itemref idref="aulus-persius-flaccus.xhtml"/>
 		<itemref idref="the-service.xhtml"/>
+		<itemref idref="aulus-persius-flaccus.xhtml"/>
 		<!-- 1842 -->
 		<itemref idref="a-walk-to-wachusett.xhtml"/>
+		<itemref idref="natural-history-of-massachusetts.xhtml"/>
 		<!-- 1843 -->
 		<itemref idref="dark-ages.xhtml"/>
 		<itemref idref="a-winter-walk.xhtml"/>
-		<itemref idref="paradise-to-be-regained.xhtml"/>
 		<itemref idref="the-landlord.xhtml"/>
-		<itemref idref="homer-ossian-chaucer.xhtml"/>
+		<itemref idref="paradise-to-be-regained.xhtml"/>
 		<!-- 1844 -->
-		<itemref idref="sir-walter-raleigh.xhtml"/>
+		<itemref idref="homer-ossian-chaucer.xhtml"/>
 		<itemref idref="herald-of-freedom.xhtml"/>
 		<!-- 1845 -->
 		<itemref idref="wendell-phillips-before-the-concord-lyceum.xhtml"/>
 		<!-- 1847 -->
 		<itemref idref="thomas-carlyle-and-his-works.xhtml"/>
-		<!-- 1849 -->
+		<!-- 1848 -->
 		<itemref idref="on-the-duty-of-civil-disobedience.xhtml"/>
+		<!-- 1849 -->
+		<itemref idref="sir-walter-raleigh.xhtml"/>
 		<!-- 1854 -->
 		<itemref idref="slavery-in-massachusetts.xhtml"/>
+		<itemref idref="life-without-principle.xhtml"/>
+		<!-- 1858 -->
+		<itemref idref="chesuncook.xhtml"/>
 		<!-- 1859 -->
 		<itemref idref="a-plea-for-captain-john-brown.xhtml"/>
 		<itemref idref="after-the-death-of-john-brown.xhtml"/>
@@ -211,14 +217,12 @@
 		<itemref idref="autumnal-tints.xhtml"/>
 		<itemref idref="wild-apples.xhtml"/>
 		<!-- 1863 -->
-		<itemref idref="natural-history-of-massachusetts.xhtml"/>
-		<itemref idref="life-without-principle.xhtml"/>
 		<itemref idref="night-and-moonlight.xhtml"/>
 		<!-- 1864 -->
-		<itemref idref="the-highland-light.xhtml"/>
-		<itemref idref="chesuncook.xhtml"/>
-		<!-- 1865 -->
 		<itemref idref="the-wellfleet-oysterman.xhtml"/>
+		<itemref idref="the-highland-light.xhtml"/>
+		<!-- 1866 -->
+		<itemref idref="a-yankee-in-canada.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
