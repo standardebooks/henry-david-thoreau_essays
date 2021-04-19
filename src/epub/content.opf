@@ -30,14 +30,52 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Essays</dc:title>
 		<meta property="file-as" refines="#title">Essays</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
-		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<dc:subject id="subject-1">Apples</dc:subject>
+		<dc:subject id="subject-2">Authors, American -- 19th century -- Biography</dc:subject>
+		<dc:subject id="subject-3">Brown, John, 1800-1859</dc:subject>
+		<dc:subject id="subject-4">Cape Cod (Mass.) -- Description and travel</dc:subject>
+		<dc:subject id="subject-5">Civil disobedience</dc:subject>
+		<dc:subject id="subject-7">Essays</dc:subject>
+		<dc:subject id="subject-7">Etzler, J. A. (John Adolphus). Paradise within the reach of all men</dc:subject>
+		<dc:subject id="subject-8">Government, Resistance to</dc:subject>
+		<dc:subject id="subject-9">Maine -- Description and travel</dc:subject>
+		<dc:subject id="subject-10">Nature</dc:subject>
+		<dc:subject id="subject-11">Piscataquis County (Me.) -- Description and travel</dc:subject>
+		<dc:subject id="subject-12">Slavery</dc:subject>
+		<dc:subject id="subject-13">Thoreau, Henry David, 1817-1862 -- Travel -- Maine</dc:subject>
+		<dc:subject id="subject-14">Walking</dc:subject>
+ 		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85006106</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh2007100461</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">Unknown</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008114575</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh90000103</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">sh85044914</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
+		<meta property="term" refines="#subject-7">Unknown</meta>
+		<meta property="authority" refines="#subject-8">LCSH</meta>
+		<meta property="term" refines="#subject-8">sh85056036</meta>
+		<meta property="authority" refines="#subject-9">LCSH</meta>
+		<meta property="term" refines="#subject-9">sh85079904</meta>
+		<meta property="authority" refines="#subject-10">LCSH</meta>
+		<meta property="term" refines="#subject-10">sh85090277</meta>
+		<meta property="authority" refines="#subject-11">LCSH</meta>
+		<meta property="term" refines="#subject-11">Unknown</meta>
+		<meta property="authority" refines="#subject-12">LCSH</meta>
+		<meta property="term" refines="#subject-12">sh85123314</meta>
+		<meta property="authority" refines="#subject-13">LCSH</meta>
+		<meta property="term" refines="#subject-13">Unknown</meta>
+		<meta property="authority" refines="#subject-14">LCSH</meta>
+		<meta property="term" refines="#subject-14">sh85144900</meta>
+		<meta property="se:subject">Memoir</meta>
+		<meta property="se:subject">Nonfiction</meta>
+		<meta property="se:subject">Travel</meta>
+		<dc:description id="description">A collection of Henry David Thoreau’s essays.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
@@ -88,6 +126,8 @@
 		<dc:source>https://catalog.hathitrust.org/Record/011682134</dc:source>
 		<!-- The Service -->
 		<dc:source>https://archive.org/details/service1902thor</dc:source>
+		<!-- Echoes of Harper's Ferry; After the Death of John Brown -->
+		<dc:source>https://archive.org/details/ASPC0005147600</dc:source>
 		<!-- Writings vol3; The Maine Woods (Chesunhook)-->
 		<dc:source>https://archive.org/details/writingsofhenryd03thor</dc:source>
 		<!-- Writings vol4; Cape Cod and Miscellanies -->
@@ -107,26 +147,70 @@
 		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Essays</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/henry-david-thoreau_essays</meta>
 		<dc:creator id="author">Henry David Thoreau</dc:creator>
 		<meta property="file-as" refines="#author">Thoreau, Henry David</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Henry_David_Thoreau</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78095600</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
+		<dc:contributor id="editor-1">Edmund Gosse</dc:contributor>
+		<meta property="file-as" refines="#editor-1">Gosse, Edmund</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-1">https://en.wikipedia.org/wiki/Edmund_Gosse</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor-1">http://id.loc.gov/authorities/names/n80045877</meta>
+		<meta property="role" refines="#editor-1" scheme="marc:relators">ann</meta>
+		<dc:contributor id="editor-2">F. B. Sanborn</dc:contributor>
+		<meta property="file-as" refines="#editor-2">Sanborn, F. B.</meta>
+		<meta property="se:name.person.full-name" refines="#editor-2">Franklin Benjamin Sanborn</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-2">https://en.wikipedia.org/wiki/Franklin_Benjamin_Sanborn</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor-2">http://id.loc.gov/authorities/names/n79045501</meta>
+		<meta property="role" refines="#editor-2" scheme="marc:relators">ann</meta>
+		<dc:contributor id="editor31">Henry Aiken Metcalf</dc:contributor>
+		<meta property="file-as" refines="#editor-3">Metcalf, Henry</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor-3">http://id.loc.gov/authorities/names/n85369206</meta>
+		<meta property="role" refines="#editor-3" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Charles Bidwell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Bidwell, Charles</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Jason Filley</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Filley, Jason</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">Steve Mattern</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Mattern, Steve</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-5">Melissa McDaniel</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">McDaniel, Melissa</meta>
+		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-6">Q. Myers</dc:contributor>
+		<meta property="file-as" refines="#transcriber-6">Myers, Q.</meta>
+		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-7">Sameer Parekh</dc:contributor>
+		<meta property="file-as" refines="#transcriber-7">Parekh, Sameer</meta>
+		<meta property="role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-8">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#transcriber-8">Rice, Vince</meta>
+		<meta property="role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-9">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-9">Widger, David</meta>
+		<meta property="se:url.authority.nacoaf" refines="#transcriber-9">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<meta property="role" refines="#transcriber-9" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-10">Wikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber-10">Wikisource</meta>
+		<meta property="se:url.homepage" refines="#transcriber-10">https://en.wikisource.org</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#transcriber-10">https://en.wikipedia.org/wiki/Wikisource</meta>
+		<meta property="role" refines="#transcriber-10" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-11">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-11">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-11">https://pgdp.net</meta>
+		<meta property="role" refines="#transcriber-11" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.brokenandsaved.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
