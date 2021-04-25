@@ -35,7 +35,7 @@
 		<dc:subject id="subject-3">Brown, John, 1800-1859</dc:subject>
 		<dc:subject id="subject-4">Cape Cod (Mass.) -- Description and travel</dc:subject>
 		<dc:subject id="subject-5">Civil disobedience</dc:subject>
-		<dc:subject id="subject-7">Essays</dc:subject>
+		<dc:subject id="subject-6">Essays</dc:subject>
 		<dc:subject id="subject-7">Etzler, J. A. (John Adolphus). Paradise within the reach of all men</dc:subject>
 		<dc:subject id="subject-8">Government, Resistance to</dc:subject>
 		<dc:subject id="subject-9">Maine -- Description and travel</dc:subject>
@@ -44,7 +44,7 @@
 		<dc:subject id="subject-12">Slavery</dc:subject>
 		<dc:subject id="subject-13">Thoreau, Henry David, 1817-1862 -- Travel -- Maine</dc:subject>
 		<dc:subject id="subject-14">Walking</dc:subject>
- 		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85006106</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2007100461</meta>
@@ -122,28 +122,57 @@
 		<!-- The Last Days of John Brown (p. 278) -->
 		<dc:source>https://en.wikisource.org/wiki/Yankee_in_Canada_(1866)/The_Last_Days_of_John_Brown</dc:source>
 		<!-- SCANS -->
-		<!-- Paradise (to be) Regained (original, only one matching transcription) -->
-		<dc:source>https://catalog.hathitrust.org/Record/011682134</dc:source>
+		<!-- Bibliography of HDT -->
+		<dc:source>https://www.google.com/books/edition/A_Bibliography_of_Henry_David_Thoreau/j0MPAAAAIAAJ?</dc:source>
 		<!-- The Service -->
 		<dc:source>https://archive.org/details/service1902thor</dc:source>
-		<!-- Echoes of Harper's Ferry; After the Death of John Brown -->
-		<dc:source>https://archive.org/details/ASPC0005147600</dc:source>
-		<!-- Writings vol3; The Maine Woods (Chesunhook)-->
-		<dc:source>https://archive.org/details/writingsofhenryd03thor</dc:source>
-		<!-- Writings vol4; Cape Cod and Miscellanies -->
-		<dc:source>https://archive.org/details/writingsofhenryd04thor</dc:source>
-		<!-- Writings vol5; Excursions and Poems -->
-		<dc:source>https://archive.org/details/writingsofhenryd05thor</dc:source>
-		<!-- The Dial 1840 vol 1: "Aulus Persius Flaccus" -->
+		<!-- "Aulus Persius Flaccus": The Dial, Vol. 1, No. 1, pp. 117–121 -->
 		<dc:source>https://books.google.com/books?id=t5c_AQAAMAAJ</dc:source>
-		<!-- The Dial 1843 vol 3/4: "Homer, Ossian, Chaucer"; "Dark Ages" -->
-		<dc:source>https://books.google.com/books?id=0Q5rpdaHR9EC</dc:source>
-		<!-- Sir Walter Raleigh, published posthumously -->
+		<!-- "A Walk to Wachusett": Boston Miscellany, Vol. 3, No. 3, pp. 31–36 -->
+		<dc:source>https://archive.org/details/sim_boston-miscellany-of-literature-and-fashion_1843_3_3</dc:source>
+		<!-- "Natural History of Massachusetts": The Dial, Vol 3, No. 1, pp. 19–40 -->
+		<!-- "Dark Ages": The Dial, Vol. 3, No. 4, pp. 527–529 -->
+		<dc:source>https://archive.org/details/dial02riplgoog</dc:source>
+		<!-- "The Landlord": Democratic Review, Vol. 13, pp. 427–430 -->
+		<!-- "Paradise (to be) Regained": Democratic Review, Vol. 13, pp. 451– -->
+		<dc:source>https://catalog.hathitrust.org/Record/011682134</dc:source>
+		<!-- "A Winter Walk": The Dial, Vol. 4, No. 2, pp. 211–225 -->
+		<!-- "Homer Ossian Chaucer": The Dial, Vol. 4, No. 3, pp. 290–305 -->
+		<!-- "Herald of Freedom":  The Dial, Vol. 4, No. 4, pp. 507–512 -->
+		<dc:source>https://archive.org/details/dial03riplgoog</dc:source>
+		<!-- "Wendell Phillips Before the Concord Lyceum": The Liberator 3/28/1845, p. 3 -->
+		<dc:source>http://theliberatorfiles.com/wp-content/uploads/2015/10/The-Liberator-1845-03-28-Page-3.png</dc:source>
+		<!-- "Thomas Carlyle and His Works": Graham's Magazine Vol. 30: Part 1, No. 3, p. 145–152; Part 2, No. 4, p. 238–245 -->
+		<dc:source>https://www.google.com/books?id=Fs01AQAAMAAJ</dc:source>
+		<!-- "Resistance to Civil Government" (aka "On the Duty of Civil Disobedience"): Aesthetic Papers, pp. 189–211 -->
+		<dc:source>https://archive.org/details/cu31924031042173</dc:source>
+		<!-- Sir Walter Raleigh -->
 		<dc:source>https://archive.org/details/sirwalterraleigh00thor</dc:source>
+		<!-- "Slavery in Massachusetts": The Liberator 7/21/1854, p. 4 -->
+		<dc:source>http://theliberatorfiles.com/wp-content/uploads/2015/10/The-Liberator-1854-07-21-Page-4.png</dc:source>
+		<!-- "Life Without Principle": Atlantic Monthly Vol. 12, No. 71, pp. 484–495 -->
+		<dc:source>https://babel.hathitrust.org/cgi/pt?id=chi.15206014</dc:source>
+		<!-- "Chesuncook": Atlantic Monthly Vol. 2: Part 1 No. 8, pp. 1–12; Part 2 No. 9, pp. 224–238; Part 3 No. 10, pp.305–317 -->
+		<dc:source>https://babel.hathitrust.org/cgi/pt?id=chi.43047330</dc:source>
+		<!-- "A Plea for John Brown": Echoes of Harper's Ferry pp. 17–42 -->
+		<!-- "After the Death of John Brown": Echoes of Harper's Ferry pp. 439–445 -->
+		<dc:source>https://archive.org/details/ASPC0005147600</dc:source>
+		<!-- "The Last Days of John Brown": The Liberator 7/27/1860, p. 2 -->
+		<dc:source>http://theliberatorfiles.com/wp-content/uploads/2015/10/The-Liberator-1860-07-27-Page-2.png</dc:source>
+		<!-- "Succession of Forest Trees": Excursions, pp. 135–160 -->
+		<dc:source>https://archive.org/details/excursionhenry00thorrich</dc:source>
+		<!-- "Walking": Atlantic Monthly Vol. 9, No. 56, pp. 657–674 -->
+		<dc:source>https://babel.hathitrust.org/cgi/pt?id=chi.34938353</dc:source>
+		<!-- "Autumnal Tings": Atlantic Monthly, Vol. 10, No. 60, pp. 385–402 -->
+		<!-- "Wild Apples": Atlantic Monthly, Vol. 10, No. 61, pp. 513–526 -->
+		<dc:source>https://babel.hathitrust.org/cgi/pt?id=chi.42553046</dc:source>
+		<!-- "Night and Moonlight": Atlantic Monthly, Vol. 12, No. 72, pp. 579–583 -->
+		<dc:source>https://babel.hathitrust.org/cgi/pt?id=chi.15206014</dc:source>
+		<!-- "The Wellfleet Oysterman": Atlantic Monthly, Vol. 14, No. 84, pp. 470–478 -->
+		<!-- "The Highland Light": Atlantic Monthly, Vol. 14, No. 86, pp. 649–659 -->
+		<dc:source>https://babel.hathitrust.org/cgi/pt?id=chi.16403980</dc:source>
 		<!-- Yankee in Canada with Anti-Slavery and Reform Papers -->
 		<dc:source>https://archive.org/details/yankeeincanadawi00thor</dc:source>
-		<!-- Excursions: "…Massachusetts"; "…Wachusett"; "Landlord"; "Winter Walk"; "Forest Trees"; "Walking"; "Autumnal Tints"; "Wild Apples"; "Night and Moonlight" -->
-		<dc:source>https://archive.org/details/excursions00thoruoft</dc:source>
 		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
@@ -165,7 +194,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-2">https://en.wikipedia.org/wiki/Franklin_Benjamin_Sanborn</meta>
 		<meta property="se:url.authority.nacoaf" refines="#editor-2">http://id.loc.gov/authorities/names/n79045501</meta>
 		<meta property="role" refines="#editor-2" scheme="marc:relators">ann</meta>
-		<dc:contributor id="editor31">Henry Aiken Metcalf</dc:contributor>
+		<dc:contributor id="editor-3">Henry Aiken Metcalf</dc:contributor>
 		<meta property="file-as" refines="#editor-3">Metcalf, Henry</meta>
 		<meta property="se:url.authority.nacoaf" refines="#editor-3">http://id.loc.gov/authorities/names/n85369206</meta>
 		<meta property="role" refines="#editor-3" scheme="marc:relators">ann</meta>
@@ -180,34 +209,34 @@
 		<dc:contributor id="transcriber-2">Jason Filley</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Filley, Jason</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-4">Steve Mattern</dc:contributor>
-		<meta property="file-as" refines="#transcriber-4">Mattern, Steve</meta>
+		<dc:contributor id="transcriber-3">Steve Mattern</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Mattern, Steve</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">Melissa McDaniel</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">McDaniel, Melissa</meta>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-5">Melissa McDaniel</dc:contributor>
-		<meta property="file-as" refines="#transcriber-5">McDaniel, Melissa</meta>
+		<dc:contributor id="transcriber-5">Q. Myers</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Myers, Q.</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-6">Sameer Parekh</dc:contributor>
+		<meta property="file-as" refines="#transcriber-6">Parekh, Sameer</meta>
 		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-6">Q. Myers</dc:contributor>
-		<meta property="file-as" refines="#transcriber-6">Myers, Q.</meta>
-		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-7">Sameer Parekh</dc:contributor>
-		<meta property="file-as" refines="#transcriber-7">Parekh, Sameer</meta>
+		<dc:contributor id="transcriber-7">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#transcriber-7">Rice, Vince</meta>
 		<meta property="role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-8">Vince Rice</dc:contributor>
-		<meta property="file-as" refines="#transcriber-8">Rice, Vince</meta>
+		<dc:contributor id="transcriber-8">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-8">Widger, David</meta>
+		<meta property="se:url.authority.nacoaf" refines="#transcriber-8">http://id.loc.gov/authorities/names/no2011017869</meta>
 		<meta property="role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-9">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-9">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-9">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<dc:contributor id="transcriber-9">Wikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber-9">Wikisource</meta>
+		<meta property="se:url.homepage" refines="#transcriber-9">https://en.wikisource.org</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#transcriber-9">https://en.wikipedia.org/wiki/Wikisource</meta>
 		<meta property="role" refines="#transcriber-9" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-10">Wikisource</dc:contributor>
-		<meta property="file-as" refines="#transcriber-10">Wikisource</meta>
-		<meta property="se:url.homepage" refines="#transcriber-10">https://en.wikisource.org</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#transcriber-10">https://en.wikipedia.org/wiki/Wikisource</meta>
+		<dc:contributor id="transcriber-10">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-10">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-10">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-10" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-11">The Online Distributed Proofreading Team</dc:contributor>
-		<meta property="file-as" refines="#transcriber-11">Online Distributed Proofreading Team, The</meta>
-		<meta property="se:url.homepage" refines="#transcriber-11">https://pgdp.net</meta>
-		<meta property="role" refines="#transcriber-11" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://www.brokenandsaved.com</meta>
