@@ -81,46 +81,46 @@
 		</meta>
 		<dc:language>en-US</dc:language>
 		<!-- TRANSCRIPTIONS -->
-		<!-- On the Duty of Civil Disobedience -->
-		<dc:source>https://www.gutenberg.org/ebooks/71</dc:source>
-		<!-- A Plea for John Brown -->
-		<dc:source>https://www.gutenberg.org/ebooks/2567</dc:source>
-		<!-- Excursions; History of Mass., Walk to Wachusett, Landlord, Winter Walk, Forest Trees, Walking, Autumnal Tings, Wild Apples, Night and Moonlight -->
-		<dc:source>https://www.gutenberg.org/ebooks/9846</dc:source>
-		<!-- Cape Cod; The Wellfleet Oysterman -->
-		<dc:source>https://www.gutenberg.org/ebooks/34392</dc:source>
-		<!-- The Main Woods; Chesuncook -->
-		<dc:source>https://www.gutenberg.org/ebooks/42500</dc:source>
 		<!-- The Service -->
 		<dc:source>https://www.gutenberg.org/ebooks/60951</dc:source>
-		<!-- Paradise (to Be) Regained -->
-		<dc:source>https://www.gutenberg.org/ebooks/63459</dc:source>
-		<!-- After the Death of John Brown -->
-		<dc:source>https://www.walden.org/what-we-do/library/thoreau/mr-thoreaus-remarks/</dc:source>
 		<!-- Aulus Persius Flaccus -->
 		<dc:source>https://en.wikisource.org/wiki/The_Dial/Volume_1/Aulus_Persius_Flaccus</dc:source>
+		<!-- Excursions; History of Mass., Walk to Wachusett, Landlord, Winter Walk, Forest Trees, Walking, Autumnal Tings, Wild Apples, Night and Moonlight -->
+		<dc:source>https://www.gutenberg.org/ebooks/9846</dc:source>
 		<!-- Dark Ages -->
 		<dc:source>https://en.wikisource.org/wiki/Dark_Ages</dc:source>
-		<!-- The Highland Light -->
-		<dc:source>https://en.wikisource.org/wiki/The_Atlantic_Monthly/Volume_14/Number_86/The_Highland_Light</dc:source>
 		<!-- The Landlord -->
 		<dc:source>https://en.wikisource.org/wiki/The_United_States_Democratic_Review/Volume_13/The_Landlord</dc:source>
-		<!-- Sir Walter Raleigh -->
-		<dc:source>https://en.wikisource.org/wiki/Sir_Walter_Raleigh/Main</dc:source>
-		<!-- Yankee in Canada -->
-		<dc:source>https://en.wikisource.org/wiki/Yankee_in_Canada_(1866)_Thoreau</dc:source>
-		<!-- Slavery in Massachusetts (p. 97) -->
-		<dc:source>https://en.wikisource.org/wiki/Yankee_in_Canada_(1866)/Slavery_in_Massachusetts</dc:source>
-		<!-- Herald of Freedom (p. 206) -->
+		<!-- Paradise (to Be) Regained -->
+		<dc:source>https://www.gutenberg.org/ebooks/63459</dc:source>
+		<!-- Herald of Freedom -->
 		<dc:source>https://en.wikisource.org/wiki/Yankee_in_Canada_(1866)/Herald_of_Freedom</dc:source>
-		<!-- Thomas Carlyle and His Works (p. 211) -->
-		<dc:source>https://en.wikisource.org/wiki/Yankee_in_Canada_(1866)/Thomas_Carlyle_and_His_Works</dc:source>
-		<!-- Life Without Principle (p. 248) -->
-		<dc:source>https://en.wikisource.org/wiki/Yankee_in_Canada_(1866)/Life_without_Principle</dc:source>
 		<!-- Wendell Phillips Before the Concord Lyceum (p. 274) -->
 		<dc:source>https://en.wikisource.org/wiki/Yankee_in_Canada_(1866)/Wendell_Phillips_Before_the_Concord_Lyceum</dc:source>
+		<!-- Thomas Carlyle and His Works (p. 211) -->
+		<dc:source>https://en.wikisource.org/wiki/Yankee_in_Canada_(1866)/Thomas_Carlyle_and_His_Works</dc:source>
+		<!-- On the Duty of Civil Disobedience -->
+		<dc:source>https://www.gutenberg.org/ebooks/71</dc:source>
+		<!-- Sir Walter Raleigh -->
+		<dc:source>https://en.wikisource.org/wiki/Sir_Walter_Raleigh/Main</dc:source>
+		<!-- Slavery in Massachusetts (p. 97) -->
+		<dc:source>https://en.wikisource.org/wiki/Yankee_in_Canada_(1866)/Slavery_in_Massachusetts</dc:source>
+		<!-- Life Without Principle (p. 248) -->
+		<dc:source>https://en.wikisource.org/wiki/Yankee_in_Canada_(1866)/Life_without_Principle</dc:source>
+		<!-- The Main Woods; Chesuncook -->
+		<dc:source>https://www.gutenberg.org/ebooks/42500</dc:source>
+		<!-- A Plea for John Brown -->
+		<dc:source>https://www.gutenberg.org/ebooks/2567</dc:source>
+		<!-- After the Death of John Brown -->
+		<dc:source>https://www.walden.org/what-we-do/library/thoreau/mr-thoreaus-remarks</dc:source>
 		<!-- The Last Days of John Brown (p. 278) -->
 		<dc:source>https://en.wikisource.org/wiki/Yankee_in_Canada_(1866)/The_Last_Days_of_John_Brown</dc:source>
+		<!-- Cape Cod; The Wellfleet Oysterman -->
+		<dc:source>https://www.gutenberg.org/ebooks/34392</dc:source>
+		<!-- The Highland Light -->
+		<dc:source>https://en.wikisource.org/wiki/The_Atlantic_Monthly/Volume_14/Number_86/The_Highland_Light</dc:source>
+		<!-- Yankee in Canada -->
+		<dc:source>https://en.wikisource.org/wiki/Yankee_in_Canada_(1866)_Thoreau</dc:source>
 		<!-- SCANS -->
 		<!-- Bibliography of HDT -->
 		<dc:source>https://www.google.com/books/edition/A_Bibliography_of_Henry_David_Thoreau/j0MPAAAAIAAJ?</dc:source>
@@ -274,6 +274,7 @@
 		<item href="text/night-and-moonlight.xhtml" id="night-and-moonlight.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/on-the-duty-of-civil-disobedience.xhtml" id="on-the-duty-of-civil-disobedience.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/paradise-to-be-regained.xhtml" id="paradise-to-be-regained.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/sir-walter-raleigh.xhtml" id="sir-walter-raleigh.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/slavery-in-massachusetts.xhtml" id="slavery-in-massachusetts.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-highland-light.xhtml" id="the-highland-light.xhtml" media-type="application/xhtml+xml"/>
@@ -292,6 +293,7 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="preface.xhtml"/>
 		<!-- 1840 -->
 		<itemref idref="the-service.xhtml"/>
 		<itemref idref="aulus-persius-flaccus.xhtml"/>
