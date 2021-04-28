@@ -10,14 +10,28 @@
 	margin-top: 1.5em;
 }
 
+footer{
+        margin-top: 1em;
+        text-align: rfight;
+}
+
+[epub|type~="z3998:signature"]{
+        font-variant: small-caps;
+}
+
+/* location specific */
 #the-highland-light blockquote{
 	text-align: center;
 }
 
-#natural-history-of-massachusetts blockquote:nth-of-type(3) > header{
+#natural-history-of-massachusetts blockquote > header > p,
+#after-the-death-of-john-brown blockquote > header > p,
+#walking blockquote > header > p{
 	font-variant: small-caps;
 	margin-bottom: 1em;
+	text-align: center;
 }
+/* end location specific */
 
 /* blockquote in foreign-language */
 blockquote[xml|lang]{
@@ -88,7 +102,7 @@ footer{
 /* end of letters */
 
 /* poem/verse/song */
-[epub|type~="z3998:poem"],
+[epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
