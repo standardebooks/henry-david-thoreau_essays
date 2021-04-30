@@ -138,7 +138,7 @@
 		<dc:source>https://catalog.hathitrust.org/Record/011682134</dc:source>
 		<!-- "A Winter Walk": The Dial, Vol. 4, No. 2, pp. 211–225 -->
 		<!-- "Homer Ossian Chaucer": The Dial, Vol. 4, No. 3, pp. 290–305 -->
-		<!-- "Herald of Freedom":  The Dial, Vol. 4, No. 4, pp. 507–512 -->
+		<!-- "Herald of Freedom": The Dial, Vol. 4, No. 4, pp. 507–512 -->
 		<dc:source>https://archive.org/details/dial03riplgoog</dc:source>
 		<!-- "Wendell Phillips Before the Concord Lyceum": The Liberator 3/28/1845, p. 3 -->
 		<dc:source>https://www.digitalcommonwealth.org/book_viewer/commonwealth:gb19h249z</dc:source>
@@ -152,8 +152,8 @@
 		<dc:source>https://www.digitalcommonwealth.org/book_viewer/commonwealth:5h7425082</dc:source>
 		<!-- "Life Without Principle": Atlantic Monthly Vol. 12, No. 71, pp. 484–495 -->
 		<dc:source>https://babel.hathitrust.org/cgi/pt?id=chi.15206014</dc:source>
-		<!-- "Chesuncook": Atlantic Monthly Vol. 2: Part 1 No. 8, pp. 1–12; Part 2 No. 9, pp. 224–238; Part 3 No. 10, pp.305–317 -->
-		<dc:source>https://babel.hathitrust.org/cgi/pt?id=chi.43047330</dc:source>
+		<!-- "Chesuncook": Atlantic Monthly Vol. 2: Part 1 No. 8, pp. 1–12; Part 2 No. 9, pp. 224–238; Part 3 No. 10, pp.305–317; https://babel.hathitrust.org/cgi/pt?id=chi.43047330 -->
+		<dc:source>https://catalog.hathitrust.org/Record/000597656</dc:source>
 		<!-- "A Plea for John Brown": Echoes of Harper's Ferry pp. 17–42 -->
 		<!-- "After the Death of John Brown": Echoes of Harper's Ferry pp. 439–445 -->
 		<dc:source>https://archive.org/details/ASPC0005147600</dc:source>
@@ -161,19 +161,16 @@
 		<dc:source>https://www.digitalcommonwealth.org/book_viewer/commonwealth:5h742p174</dc:source>
 		<!-- "Succession of Forest Trees": Excursions, pp. 135–160 -->
 		<dc:source>https://archive.org/details/excursionhenry00thorrich</dc:source>
-		<!-- "Walking": Atlantic Monthly Vol. 9, No. 56, pp. 657–674 -->
-		<dc:source>https://babel.hathitrust.org/cgi/pt?id=chi.34938353</dc:source>
+		<!-- See Chesuncook above for Hathitrust record URL -->
+		<!-- "Walking": Atlantic Monthly Vol. 9, No. 56, pp. 657–674; https://babel.hathitrust.org/cgi/pt?id=chi.34938353 -->
 		<!-- "Autumnal Tings": Atlantic Monthly, Vol. 10, No. 60, pp. 385–402 -->
-		<!-- "Wild Apples": Atlantic Monthly, Vol. 10, No. 61, pp. 513–526 -->
-		<dc:source>https://babel.hathitrust.org/cgi/pt?id=chi.42553046</dc:source>
-		<!-- "Night and Moonlight": Atlantic Monthly, Vol. 12, No. 72, pp. 579–583 -->
-		<dc:source>https://babel.hathitrust.org/cgi/pt?id=chi.15206014</dc:source>
+		<!-- "Wild Apples": Atlantic Monthly, Vol. 10, No. 61, pp. 513–526; https://babel.hathitrust.org/cgi/pt?id=chi.42553046 -->
+		<!-- "Night and Moonlight": Atlantic Monthly, Vol. 12, No. 72, pp. 579–583; https://babel.hathitrust.org/cgi/pt?id=chi.15206014 -->
 		<!-- "The Wellfleet Oysterman": Atlantic Monthly, Vol. 14, No. 84, pp. 470–478 -->
-		<!-- "The Highland Light": Atlantic Monthly, Vol. 14, No. 86, pp. 649–659 -->
-		<dc:source>https://babel.hathitrust.org/cgi/pt?id=chi.16403980</dc:source>
+		<!-- "The Highland Light": Atlantic Monthly, Vol. 14, No. 86, pp. 649–659; https://babel.hathitrust.org/cgi/pt?id=chi.16403980 -->
 		<!-- Yankee in Canada with Anti-Slavery and Reform Papers -->
 		<dc:source>https://archive.org/details/yankeeincanadawi00thor</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">A few of the essays (Thomas Carlyle, A Walk to Wachusett) were missing large sections of text; these were typed in from the original scans. A couple of the essays had no transcription so had to be typed. A Yankee in Canada already existed as a standalone SE production; the chapters were merged into one file to match the rest of the essays. The preface/biographical sketch was added from Excursions, a collection of his nature essays.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/henry-david-thoreau_essays</meta>
@@ -198,6 +195,11 @@
 		<meta property="file-as" refines="#editor-3">Metcalf, Henry</meta>
 		<meta property="se:url.authority.nacoaf" refines="#editor-3">http://id.loc.gov/authorities/names/n85369206</meta>
 		<meta property="role" refines="#editor-3" scheme="marc:relators">ann</meta>
+		<dc:contributor id="writer-of-preface">Ralph Waldo Emerson</dc:contributor>
+		<meta property="file-as" refines="#writer-of-preface">Emerson, Ralph Waldo</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#writer-of-preface">https://en.wikipedia.org/wiki/Ralph_Waldo_Emerson</meta>
+		<meta property="se:url.authority.nacoaf" refines="#writer-of-preface">http://id.loc.gov/authorities/names/n78085476</meta>
+		<meta property="role" refines="#writer-of-preface" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
@@ -266,6 +268,7 @@
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/dark-ages.xhtml" id="dark-ages.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/herald-of-freedom.xhtml" id="herald-of-freedom.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/homer-ossian-chaucer.xhtml" id="homer-ossian-chaucer.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -294,6 +297,7 @@
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="preface.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
 		<!-- 1840 -->
 		<itemref idref="the-service.xhtml"/>
 		<itemref idref="aulus-persius-flaccus.xhtml"/>
