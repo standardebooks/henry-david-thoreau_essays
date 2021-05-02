@@ -77,7 +77,9 @@
 		<meta property="se:subject">Travel</meta>
 		<dc:description id="description">A collection of Henry David Thoreau’s essays.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Though most famous for &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/henry-david-thoreau/walden"&gt;Walden&lt;/a&gt;&lt;/i&gt;, &lt;a href="https://standardebooks.org/ebooks/henry-david-thoreau"&gt;Henry David Thoreau&lt;/a&gt; was also a prolific essayist. Many of his essays touch on subjects similar to his famous book: long walks through nature, things found in moonlight that are invisible and unheard during the day, his preference for wild apples over domestic ones. In many ways he prefigured environmentalism, exhorting his love for untouched nature and lamenting what the encroachment of man and cities were doing to it.&lt;/p&gt;
+			&lt;p&gt;But he also had strong opinions on many other subjects. One of his most famous essays was written as a result of going to jail for refusing to pay several years of poll-taxes. One of the primary reasons for his refusal was his holding the government in contempt for its support of slavery; several of his essays express support and admiration for John Brown, who thought to start a slave revolt when he attacked Harper’s Ferry in 1859.&lt;/p&gt;
+			&lt;p&gt;Whether discussing forest trees or slavery or the works of Thomas Carlyle, Thoreau’s essays are deeply personal, full of keen observations of whatever the subject at hand happens to be, expressed in often poetic language, and give a sense of the man expressing them as much or more than the views being expressed.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<!-- TRANSCRIPTIONS -->
@@ -122,8 +124,6 @@
 		<!-- Yankee in Canada -->
 		<dc:source>https://en.wikisource.org/wiki/Yankee_in_Canada_(1866)</dc:source>
 		<!-- SCANS -->
-		<!-- Bibliography of HDT -->
-		<dc:source>https://www.google.com/books/edition/A_Bibliography_of_Henry_David_Thoreau/j0MPAAAAIAAJ?</dc:source>
 		<!-- The Service -->
 		<dc:source>https://archive.org/details/service1902thor</dc:source>
 		<!-- "Aulus Persius Flaccus": The Dial, Vol. 1, No. 1, pp. 117–121 -->
@@ -170,7 +170,7 @@
 		<!-- "The Highland Light": Atlantic Monthly, Vol. 14, No. 86, pp. 649–659; https://babel.hathitrust.org/cgi/pt?id=chi.16403980 -->
 		<!-- Yankee in Canada with Anti-Slavery and Reform Papers -->
 		<dc:source>https://archive.org/details/yankeeincanadawi00thor</dc:source>
-		<meta property="se:production-notes">A few of the essays (Thomas Carlyle, A Walk to Wachusett) were missing large sections of text; these were typed in from the original scans. A couple of the essays had no transcription so had to be typed. A Yankee in Canada already existed as a standalone SE production; the chapters were merged into one file to match the rest of the essays. The preface/biographical sketch was added from Excursions, a collection of his nature essays.</meta>
+		<meta property="se:production-notes">A couple of the essays (Thomas Carlyle, A Walk to Wachusett) were missing large sections of text; these were typed in from the original scans. A couple of the essays (Homer/Ossian/Chaucer and After the Death of John Brown) and the preface had no transcription and were typed as well. A Yankee in Canada already existed as a standalone SE production; the chapters were merged into one file to match the rest of the essays. The preface/biographical sketch was added from Excursions, a collection of his nature essays. Modernize spelling makes changes, but they're all to poetry so were reverted.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/henry-david-thoreau_essays</meta>
