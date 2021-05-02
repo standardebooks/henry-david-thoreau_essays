@@ -2,6 +2,14 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
+blockquote > header > p,
+blockquote[epub|type~="z3998:poem"] > header > p,
+blockquote[epub|type~="z3998:verse"] > header > p{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
 [epub|type~="epigraph"] + [epub|type~="epigraph"]{
 	margin-top: 1em;
 }
@@ -10,25 +18,12 @@
 	margin-top: 1.5em;
 }
 
-footer{
-        margin-top: 1em;
-        text-align: rfight;
-}
-
-[epub|type~="z3998:signature"]{
-        font-variant: small-caps;
+q{
+	font-style: italic;
 }
 
 /* location specific */
 #the-highland-light blockquote{
-	text-align: center;
-}
-
-#natural-history-of-massachusetts blockquote > header > p,
-#after-the-death-of-john-brown blockquote > header > p,
-#walking blockquote > header > p{
-	font-variant: small-caps;
-	margin-bottom: 1em;
 	text-align: center;
 }
 /* end location specific */
@@ -50,10 +45,6 @@ blockquote[xml|lang]{
 
 [epub|type~="bridgehead"] i{
 	font-style: normal;
-}
-
-[epub|type~="z3998:verse"] [epub|type~="bridgehead"]{
-	text-align: justify;
 }
 /* end of bridgeheads */
 
@@ -143,6 +134,11 @@ p span.i3{
 p span.i4{
 	text-indent: -1em;
 	padding-left: 5em;
+}
+
+p span.i5{
+	text-indent: -1em;
+	padding-left: 6em;
 }
 
 p span.i6{
