@@ -5,9 +5,5 @@
 			<code>m-005</code>
 			<reason>The HathiTrust URL’s are just in comments; the record IDs are used in the dc:sources.</reason>
 		</ignore>
-		<ignore>
-			<code>m-011</code>
-			<reason>The HathiTrust URL’s are just in comments; the record IDs are used in the dc:sources.</reason>
-		</ignore>
 	</file>
 </se-lint-ignore>
