@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<se-lint-ignore>
-	<file path="content.opf">
-		<ignore>
-			<code>m-005</code>
-			<reason>The HathiTrust URL’s are just in comments; the record IDs are used in the dc:sources.</reason>
-		</ignore>
-	</file>
-</se-lint-ignore>
