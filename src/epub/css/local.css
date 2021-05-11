@@ -10,20 +10,12 @@ blockquote[epub|type~="z3998:verse"] > header > p{
 	text-align: center;
 }
 
-[epub|type~="epigraph"] + [epub|type~="epigraph"]{
-	margin-top: 1em;
-}
-
-[epub|type~="epigraph"] + [epub|type~="bridgehead"]{
-	margin-top: 1.5em;
-}
-
 q{
 	font-style: italic;
 }
 
 /* location specific */
-#the-highland-light blockquote{
+#the-highland-light blockquote:last-of-type{
 	text-align: center;
 }
 /* end location specific */
@@ -72,6 +64,10 @@ article > header [epub|type~="epigraph"]{
 	margin: auto;
 	max-width: 80%;
 	text-align: initial;
+}
+
+article > header [epub|type~="epigraph"] + *{
+	margin-top: 3em;
 }
 
 @supports(display: table){
