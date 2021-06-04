@@ -251,7 +251,8 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
-		<dc:contributor id="producer-2">David M. Gross</dc:contributor><!-- Worked on A Yankee in Canada-->
+		<dc:contributor id="producer-2">David M. Gross</dc:contributor>
+		<!-- Worked on A Yankee in Canada-->
 		<meta property="file-as" refines="#producer-2">Gross, David M.</meta>
 		<meta property="se:name.person.full-name" refines="#producer-2">David Michael Gross</meta>
 		<meta property="se:url.homepage" refines="#producer-2">https://sniggle.net/TPL/</meta>
@@ -267,7 +268,6 @@
 		<meta property="role" refines="#producer-3" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
-		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="css/se.css" id="se.css" media-type="text/css"/>
@@ -309,6 +309,7 @@
 		<item href="text/walking.xhtml" id="walking.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/wendell-phillips-before-the-concord-lyceum.xhtml" id="wendell-phillips-before-the-concord-lyceum.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/wild-apples.xhtml" id="wild-apples.xhtml" media-type="application/xhtml+xml"/>
+		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
