@@ -73,6 +73,8 @@
 		<meta property="se:subject">Memoir</meta>
 		<meta property="se:subject">Nonfiction</meta>
 		<meta property="se:subject">Travel</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">A collection of Henry David Thoreau’s essays.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Though perhaps most famous for &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/henry-david-thoreau/walden"&gt;Walden&lt;/a&gt;&lt;/i&gt;, &lt;a href="https://standardebooks.org/ebooks/henry-david-thoreau"&gt;Henry David Thoreau&lt;/a&gt; was also a prolific essayist. Many of his essays touch on subjects similar to his famous book: long walks through nature, things found in moonlight that are invisible and unheard during the day, his preference for wild apples over domestic ones. In many ways he prefigured environmentalism, expressing his love for untouched nature and lamenting what the encroachment of man and cities were doing to it.&lt;/p&gt;
