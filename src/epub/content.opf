@@ -171,7 +171,7 @@
 		<!-- Yankee in Canada with Anti-Slavery and Reform Papers -->
 		<dc:source>https://archive.org/details/yankeeincanadawi00thor</dc:source>
 		<meta property="se:production-notes">A couple of the essays (Thomas Carlyle, A Walk to Wachusett) were missing large sections of text; these were typed in from the original scans. A couple of the essays (Homer/Ossian/Chaucer and After the Death of John Brown) and the preface had no transcription and were typed as well. A Yankee in Canada already existed as a standalone SE production; the chapters were merged into one file to match the rest of the essays. The preface/biographical sketch was added from Excursions, a collection of his nature essays. Modernize spelling makes changes, but they're all to poetry so were reverted.</meta>
-		<meta property="se:word-count">232357</meta>
+		<meta property="se:word-count">232368</meta>
 		<meta property="se:reading-ease.flesch">62.21</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/henry-david-thoreau_essays</meta>
 		<dc:creator id="author">Henry David Thoreau</dc:creator>
