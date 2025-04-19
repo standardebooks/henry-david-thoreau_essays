@@ -235,8 +235,8 @@
 		<meta property="se:url.homepage" refines="#transcriber-9">https://en.wikisource.org</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#transcriber-9">https://en.wikipedia.org/wiki/Wikisource</meta>
 		<meta property="role" refines="#transcriber-9" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-10">The Online Distributed Proofreading Team</dc:contributor>
-		<meta property="file-as" refines="#transcriber-10">Online Distributed Proofreading Team, The</meta>
+		<dc:contributor id="transcriber-10">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-10">Distributed Proofreaders</meta>
 		<meta property="se:url.homepage" refines="#transcriber-10">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-10" scheme="marc:relators">trc</meta>
 		<dc:contributor id="sponsor">Threadable</dc:contributor>
