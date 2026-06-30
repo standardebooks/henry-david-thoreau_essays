@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/henry-david-thoreau/essays</dc:identifier>
 		<dc:date>2021-05-11T21:19:01Z</dc:date>
 		<meta property="dcterms:modified">2021-05-11T21:19:01Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -71,16 +72,20 @@
 		<meta property="term" refines="#subject-13">Unknown</meta>
 		<meta property="authority" refines="#subject-14">LCSH</meta>
 		<meta property="term" refines="#subject-14">sh85144900</meta>
-		<meta property="se:subject">Memoir</meta>
-		<meta property="se:subject">Nonfiction</meta>
-		<meta property="se:subject">Travel</meta>
-		<meta property="se:is-a-collection">true</meta>
+		<meta property="schema:genre">Memoir</meta>
+		<meta property="schema:genre">Nonfiction</meta>
+		<meta property="schema:genre">Travel</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<meta property="se:title-in-collection" refines="#collection-1">Nature</meta>
+		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
+		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
+		<meta property="schema:name" refines="#collection-1-entry-1">Nature</meta>
 		<meta id="collection-2" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
-		<meta property="se:title-in-collection" refines="#collection-2">Self-Reliance</meta>
+		<meta property="schema:hasPart" refines="#collection-2" id="collection-2-entry-1">schema:hasPart</meta>
+		<meta property="rdf:type" refines="#collection-2-entry-1">http://schema.org/CreativeWork</meta>
+		<meta property="schema:name" refines="#collection-2-entry-1">Self-Reliance</meta>
 		<dc:description id="description">A collection of Henry David Thoreau’s essays.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Though perhaps most famous for &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/henry-david-thoreau/walden"&gt;Walden&lt;/a&gt;&lt;/i&gt;, &lt;a href="https://standardebooks.org/ebooks/henry-david-thoreau"&gt;Henry David Thoreau&lt;/a&gt; was also a prolific essayist. Many of his essays touch on subjects similar to his famous book: long walks through nature, things found in moonlight that are invisible and unheard during the day, his preference for wild apples over domestic ones. In many ways he prefigured environmentalism, expressing his love for untouched nature and lamenting what the encroachment of man and cities were doing to it.&lt;/p&gt;
@@ -176,40 +181,41 @@
 		<!-- "The Highland Light": Atlantic Monthly, Vol. 14, No. 86, pp. 649–659; https://babel.hathitrust.org/cgi/pt?id=chi.16403980 -->
 		<!-- Yankee in Canada with Anti-Slavery and Reform Papers -->
 		<dc:source>https://archive.org/details/yankeeincanadawi00thor</dc:source>
-		<meta property="se:production-notes">A couple of the essays (Thomas Carlyle, A Walk to Wachusett) were missing large sections of text; these were typed in from the original scans. A couple of the essays (Homer/Ossian/Chaucer and After the Death of John Brown) and the preface had no transcription and were typed as well. A Yankee in Canada already existed as a standalone SE production; the chapters were merged into one file to match the rest of the essays. The preface/biographical sketch was added from Excursions, a collection of his nature essays. Modernize spelling makes changes, but they're all to poetry so were reverted.</meta>
-		<meta property="se:word-count">231525</meta>
-		<meta property="se:reading-ease.flesch">62.21</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/henry-david-thoreau_essays</meta>
+		<meta property="schema:wordCount">231525</meta>
+		<meta property="schema:educationalLevel">62.21</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/henry-david-thoreau_essays" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Henry David Thoreau</dc:creator>
 		<meta property="file-as" refines="#author">Thoreau, Henry David</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Henry_David_Thoreau</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78095600</meta>
+		<link href="https://en.wikipedia.org/wiki/Henry_David_Thoreau" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n78095600.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="editor-1">Edmund Gosse</dc:contributor>
 		<meta property="file-as" refines="#editor-1">Gosse, Edmund</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-1">https://en.wikipedia.org/wiki/Edmund_Gosse</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor-1">http://id.loc.gov/authorities/names/n80045877</meta>
+		<link href="https://en.wikipedia.org/wiki/Edmund_Gosse" refines="#editor-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80045877.html" refines="#editor-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">ann</meta>
 		<dc:contributor id="editor-2">F. B. Sanborn</dc:contributor>
 		<meta property="file-as" refines="#editor-2">Sanborn, F. B.</meta>
-		<meta property="se:name.person.full-name" refines="#editor-2">Franklin Benjamin Sanborn</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-2">https://en.wikipedia.org/wiki/Franklin_Benjamin_Sanborn</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor-2">http://id.loc.gov/authorities/names/n79045501</meta>
+		<meta property="schema:alternateName" refines="#editor-2">Franklin Benjamin Sanborn</meta>
+		<link href="https://en.wikipedia.org/wiki/Franklin_Benjamin_Sanborn" refines="#editor-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79045501.html" refines="#editor-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor-2" scheme="marc:relators">ann</meta>
 		<dc:contributor id="editor-3">Henry Aiken Metcalf</dc:contributor>
 		<meta property="file-as" refines="#editor-3">Metcalf, Henry</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor-3">http://id.loc.gov/authorities/names/n85369206</meta>
+		<link href="https://id.loc.gov/authorities/names/n85369206.html" refines="#editor-3" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor-3" scheme="marc:relators">ann</meta>
 		<dc:contributor id="writer-of-preface">Ralph Waldo Emerson</dc:contributor>
 		<meta property="file-as" refines="#writer-of-preface">Emerson, Ralph Waldo</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#writer-of-preface">https://en.wikipedia.org/wiki/Ralph_Waldo_Emerson</meta>
-		<meta property="se:url.authority.nacoaf" refines="#writer-of-preface">http://id.loc.gov/authorities/names/n78085476</meta>
+		<link href="https://en.wikipedia.org/wiki/Ralph_Waldo_Emerson" refines="#writer-of-preface" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n78085476.html" refines="#writer-of-preface" rel="schema:sameAs"/>
 		<meta property="role" refines="#writer-of-preface" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Tom Thomson</dc:contributor>
 		<meta property="file-as" refines="#artist">Thomson, Tom</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Tom_Thomson</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50012239</meta>
+		<link href="https://en.wikipedia.org/wiki/Tom_Thomson" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50012239.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Charles Bidwell</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Bidwell, Charles</meta>
@@ -234,23 +240,23 @@
 		<meta property="role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-8">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-8">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-8">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-8" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-9">Wikisource</dc:contributor>
 		<meta property="file-as" refines="#transcriber-9">Wikisource</meta>
-		<meta property="se:url.homepage" refines="#transcriber-9">https://en.wikisource.org/</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#transcriber-9">https://en.wikipedia.org/wiki/Wikisource</meta>
+		<link href="https://en.wikisource.org/" refines="#transcriber-9" rel="schema:url"/>
+		<link href="https://en.wikipedia.org/wiki/Wikisource" refines="#transcriber-9" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-9" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-10">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-10">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-10">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-10" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-10" scheme="marc:relators">trc</meta>
 		<dc:contributor id="sponsor">Threadable</dc:contributor>
 		<meta property="file-as" refines="#sponsor">Threadable</meta>
 		<meta property="role" refines="#sponsor" scheme="marc:relators">spn</meta>
 		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.brokenandsaved.com/</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
@@ -259,8 +265,8 @@
 		<dc:contributor id="producer-2">David M. Gross</dc:contributor>
 		<!-- Worked on A Yankee in Canada-->
 		<meta property="file-as" refines="#producer-2">Gross, David M.</meta>
-		<meta property="se:name.person.full-name" refines="#producer-2">David Michael Gross</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://sniggle.net/TPL/</meta>
+		<meta property="schema:alternateName" refines="#producer-2">David Michael Gross</meta>
+		<link href="https://sniggle.net/TPL/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">cov</meta>
@@ -269,7 +275,7 @@
 		<meta property="role" refines="#producer-2" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-3">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-3">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-3">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-3" rel="schema:url"/>
 		<meta property="role" refines="#producer-3" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
