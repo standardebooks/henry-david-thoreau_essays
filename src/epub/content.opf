@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/henry-david-thoreau/essays</dc:identifier>
 		<dc:date>2021-05-11T21:19:01Z</dc:date>
@@ -86,12 +86,12 @@
 		<meta property="schema:hasPart" refines="#collection-2" id="collection-2-entry-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-2-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-2-entry-1">Self-Reliance</meta>
-		<dc:description id="description">A collection of Henry David Thoreau’s essays.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A collection of Henry David Thoreau’s essays.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Though perhaps most famous for &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/henry-david-thoreau/walden"&gt;Walden&lt;/a&gt;&lt;/i&gt;, &lt;a href="https://standardebooks.org/ebooks/henry-david-thoreau"&gt;Henry David Thoreau&lt;/a&gt; was also a prolific essayist. Many of his essays touch on subjects similar to his famous book: long walks through nature, things found in moonlight that are invisible and unheard during the day, his preference for wild apples over domestic ones. In many ways he prefigured environmentalism, expressing his love for untouched nature and lamenting what the encroachment of man and cities were doing to it.&lt;/p&gt;
 			&lt;p&gt;He also had strong opinions on many other subjects. One of his most famous essays, “On the Duty of Civil Disobedience,” was written as a result of his going to jail for refusing to pay several years’ worth of poll taxes. One of the primary reasons for his refusal was his holding the government in contempt for its support of slavery, and several of his other essays express support and admiration for John Brown, who thought to start a slave revolt when he attacked Harper’s Ferry in 1859.&lt;/p&gt;
 			&lt;p&gt;Whether discussing trees in a forest, slavery, or the works of Thomas Carlyle, Thoreau’s essays are deeply personal and full of keen observations, often in poetic language. They give a sense of the man expressing them as being much more than the views being expressed.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<!-- TRANSCRIPTIONS -->
 		<!-- The Service -->
