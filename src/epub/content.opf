@@ -31,18 +31,18 @@
 		<dc:title id="title">Essays</dc:title>
 		<meta property="file-as" refines="#title">Essays</meta>
 		<dc:subject id="subject-1">Apples</dc:subject>
-		<dc:subject id="subject-2">Authors, American -- 19th century -- Biography</dc:subject>
+		<dc:subject id="subject-2">Authors, American--19th century--Biography</dc:subject>
 		<dc:subject id="subject-3">Brown, John, 1800-1859</dc:subject>
-		<dc:subject id="subject-4">Cape Cod (Mass.) -- Description and travel</dc:subject>
+		<dc:subject id="subject-4">Cape Cod (Mass.)--Description and travel</dc:subject>
 		<dc:subject id="subject-5">Civil disobedience</dc:subject>
 		<dc:subject id="subject-6">Essays</dc:subject>
 		<dc:subject id="subject-7">Etzler, J. A. (John Adolphus). Paradise within the reach of all men</dc:subject>
 		<dc:subject id="subject-8">Government, Resistance to</dc:subject>
-		<dc:subject id="subject-9">Maine -- Description and travel</dc:subject>
+		<dc:subject id="subject-9">Maine--Description and travel</dc:subject>
 		<dc:subject id="subject-10">Nature</dc:subject>
-		<dc:subject id="subject-11">Piscataquis County (Me.) -- Description and travel</dc:subject>
+		<dc:subject id="subject-11">Piscataquis County (Me.)--Description and travel</dc:subject>
 		<dc:subject id="subject-12">Slavery</dc:subject>
-		<dc:subject id="subject-13">Thoreau, Henry David, 1817-1862 -- Travel -- Maine</dc:subject>
+		<dc:subject id="subject-13">Thoreau, Henry David, 1817-1862--Travel--Maine</dc:subject>
 		<dc:subject id="subject-14">Walking</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85006106</meta>
