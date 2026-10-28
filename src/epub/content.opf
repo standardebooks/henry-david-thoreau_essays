@@ -181,7 +181,7 @@
 		<!-- "The Highland Light": Atlantic Monthly, Vol. 14, No. 86, pp. 649–659; https://babel.hathitrust.org/cgi/pt?id=chi.16403980 -->
 		<!-- Yankee in Canada with Anti-Slavery and Reform Papers -->
 		<dc:source>https://archive.org/details/yankeeincanadawi00thor</dc:source>
-		<meta property="schema:wordCount">231525</meta>
+		<meta property="schema:wordCount">231524</meta>
 		<meta property="schema:educationalLevel">62.21</meta>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
