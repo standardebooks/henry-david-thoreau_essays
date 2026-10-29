@@ -78,12 +78,12 @@
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
+		<meta id="collection-1-entry-1" property="schema:hasPart" refines="#collection-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-1-entry-1">A Plea for Captain John Brown</meta>
 		<meta id="collection-2" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
-		<meta property="schema:hasPart" refines="#collection-2" id="collection-2-entry-1">schema:hasPart</meta>
+		<meta id="collection-2-entry-1" property="schema:hasPart" refines="#collection-2">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-2-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-2-entry-1">On the Duty of Civil Disobedience</meta>
 		<meta property="schema:abstract">A collection of Henry David Thoreau’s essays.</meta>
@@ -194,6 +194,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="editor-1">Edmund Gosse</dc:contributor>
 		<meta property="file-as" refines="#editor-1">Gosse, Edmund</meta>
+		<meta property="schema:alternateName" refines="#editor-1">Edmund William Gosse</meta>
 		<link href="https://en.wikipedia.org/wiki/Edmund_Gosse" refines="#editor-1" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n80045877.html" refines="#editor-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">ann</meta>
@@ -237,15 +238,16 @@
 		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-7">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#transcriber-7">Rice, Vince</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#transcriber-7" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-8">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-8">Widger, David</meta>
 		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-8" rel="schema:sameAs"/>
+		<link href="https://www.gutenberg.net.au/widger/home.html" refines="#transcriber-8" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-9">Wikisource</dc:contributor>
 		<meta property="file-as" refines="#transcriber-9">Wikisource</meta>
 		<link href="https://en.wikisource.org/" refines="#transcriber-9" rel="schema:url"/>
-		<link href="https://en.wikipedia.org/wiki/Wikisource" refines="#transcriber-9" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-9" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-10">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-10">Distributed Proofreaders</meta>
@@ -262,11 +264,12 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
-		<dc:contributor id="producer-2">David M. Gross</dc:contributor>
 		<!-- Worked on A Yankee in Canada-->
+		<dc:contributor id="producer-2">David M. Gross</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Gross, David M.</meta>
 		<meta property="schema:alternateName" refines="#producer-2">David Michael Gross</meta>
 		<link href="https://sniggle.net/TPL/" refines="#producer-2" rel="schema:url"/>
+		<link href="https://id.loc.gov/authorities/names/no2009011220.html" refines="#producer-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">cov</meta>
